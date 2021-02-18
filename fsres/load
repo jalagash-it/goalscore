@@ -1,0 +1,9 @@
+(function(w,d){var divName="6012p4dz6fk",zone=w.ABN(divName),media={id:1206767171,poolID:1550048029,width:970,height:90,campaignID:1837861258,zoneID:2077969203,siteID:2103890658, url:"https://z.cdn.ftd.agency/go?z=2077969203&m=1206767171&c=1837861258&p0=1550048029&u=652587964ad9719c&t=1613597775&n=668928726940151242&h=3126577473",
+os:5,
+country:22, path:ABN.protocol+"//f1.cdn.ftd.agency/uploads/media/9/6/17869/"};zone.catID=0;
+media.vars={"src":{"WooppayPrizes_970x90_KZ":"v1/WooppayPrizes_970x90_KZ.gif"},"alt":"Click!"};zone.media=media;//tm7
+function getKey(){var a=Math.abs(Date.now()-Date.UTC(2E3));return String.fromCharCode(97+Math.floor(a/1E10%10))+(a/1E7).toFixed(0)}var src,key;for(key in media.vars.src)if(media.vars.src[key].match(/(jpe?g|png|gif)/i)){src=media.vars.src[key];break}
+if(null!=src){media.vars.alt="undefined"!=typeof media.vars.alt?media.vars.alt:"";var btn=document.createElement("a"),pic=document.createElement("img");attr={display:"block",margin:"auto",outline:"none","text-align":"center","line-height":0};ABN.merge(btn.style,attr);attr={href:media.url,target:"_blank",title:media.vars.alt};ABN.merge(btn,attr);attr={position:"static"};ABN.merge(pic.style,attr);pic.setAttribute("src",media.path+src);pic.setAttribute("width",media.width);pic.setAttribute("height",
+"auto");btn.setAttribute("rel","nofollow");btn.setAttribute("class",getKey());btn.appendChild(pic);zone.append(btn)};
+
+})(window, document);

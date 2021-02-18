@@ -1,0 +1,9 @@
+(function(w,d){var divName="d6wmkawdqqo",zone=w.ABN(divName),media={id:1975019734,poolID:1335711232,width:300,height:250,campaignID:1755589517,zoneID:1397055105,siteID:2103890658, url:"https://z.cdn.ftd.agency/go?z=1397055105&m=1975019734&c=1755589517&p0=1335711232&u=652587964ad9719c&t=1613597776&n=8514516674383176127&h=2310618971",
+os:5,
+country:22, path:ABN.protocol+"//f1.cdn.ftd.agency/uploads/media/2/8/13982/"};zone.catID=0;
+zone.vars={"id14":{"expireClose":"0"},"id16":{"rich_media_max_time":""}};media.vars={"src":{"1xbet_KZ_300x250_Rangers":"v1/1xbet_KZ_300x250_Rangers.gif"},"alt":"Click!"};zone.media=media;//tm7
+function getKey(){var a=Math.abs(Date.now()-Date.UTC(2E3));return String.fromCharCode(97+Math.floor(a/1E10%10))+(a/1E7).toFixed(0)}var src,key;for(key in media.vars.src)if(media.vars.src[key].match(/(jpe?g|png|gif)/i)){src=media.vars.src[key];break}
+if(null!=src){media.vars.alt="undefined"!=typeof media.vars.alt?media.vars.alt:"";var btn=document.createElement("a"),pic=document.createElement("img");attr={display:"block",margin:"auto",outline:"none","text-align":"center","line-height":0};ABN.merge(btn.style,attr);attr={href:media.url,target:"_blank",title:media.vars.alt};ABN.merge(btn,attr);attr={position:"static"};ABN.merge(pic.style,attr);pic.setAttribute("src",media.path+src);pic.setAttribute("width",media.width);pic.setAttribute("height",
+"auto");btn.setAttribute("rel","nofollow");btn.setAttribute("class",getKey());btn.appendChild(pic);zone.append(btn)};
+
+})(window, document);
