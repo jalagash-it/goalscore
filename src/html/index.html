@@ -1,33 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
+<html lang="ru">
+  <head>
     @@include('./includes/_head.html')
-</head>
+  </head>
 
-<body>
-
-
+  <body>
     @@include('./includes/_header.html')
-
-
-
     <div class="home-content">
-
-        <h1>Hello world</h1>
-
-        <hr>
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam enim id, amet pariatur obcaecati consequuntur voluptatem ea eos perferendis cupiditate rem officiis hic dignissimos odit eius perspiciatis quidem tenetur repellat?</p>
-
+      <div class="container">
+        <div class="list">
+          <div class="list__items">
+            <h1>Аудан әкімінің кубогі</h1>
+            <p>Жалағаш футболы</p>
+          </div>
+          <div class="list__items">Таблица</div>
+          <div class="list__items">Календарь</div>
+          <div class="list__items">Результаты</div>
+          <div class="list__items">Live</div>
+        </div>
+        <div class="table">
+          <div class="table__title">Таблица <span>18-тур</span></div>
+        </div>
+        <div class="table__content">
+          <div class="table__content-items">
+            <div class="item">N команды </div>
+            <div class="item">1. Наркескен</div>
+            <div class="item"></div>
+            <div class="item"></div>
+          </div>
+          <div class="table__content-items"></div>
+        </div>
+      </div>
     </div>
 
-
-
     @@include('./includes/_footer.html') @@include('./includes/_scripts.html')
-
-
-
-</body>
-
+  </body>
 </html>
